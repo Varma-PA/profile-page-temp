@@ -11,3 +11,49 @@
 body {
   box-sizing: border-box;
 }
+
+:root {
+  --dark-background: #eeeeee;
+}
+
+.light {
+  background-color: #eeeeee;
+}
+.dark {
+  background-color: #0b0b0b;
+}
+
+.light-background {
+  background-color: #eeeeee;
+  /* animation: fadeIn 1s linear; */
+  transition: all 0.5s linear;
+  color: black;
+}
+
+.dark-background {
+  background-color: #222222;
+  /* animation-name: fadeIn; */
+  /* animation-duration: 1s; */
+  transition: all 0.5s linear;
+  color: white;
+}
+
+.the-root {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+.the-root > main {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin: 3rem 0;
+}
+
+.light > h2 {
+  color: black;
+}
+.dark > h2 {
+  color: white;
+}
