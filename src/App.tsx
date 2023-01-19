@@ -1,13 +1,17 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import "./App.css";
+import { RouterProvider } from "react-router-dom";
+import "./styles/main.scss";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import router from "./router";
 
 function App() {
   return (
     <div>
-      <div></div>
-      <div></div>
-      <div></div>
+      <Header />
+      <main>
+        <RouterProvider router={router} />
+      </main>
+      <Footer />
     </div>
   );
 }
