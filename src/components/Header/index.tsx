@@ -14,7 +14,7 @@ const Header = ({ callBack }: headerProps): JSX.Element => {
   return (
     <header className={"header " + theme}>
       <div className="header-flexbox">
-        <h3>My React Project</h3>
+        <h3>Achyuth Varma</h3>
         <div className="parent-nav-flexbox">
           <button
             id="hamburger"
@@ -36,7 +36,9 @@ const Header = ({ callBack }: headerProps): JSX.Element => {
               <li onClick={() => changePage("blogs")}>Blogs</li>
               <li onClick={() => changePage("about")}>About</li> */}
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/" style={{ textDecoration: "none" }}>
+                  <li>Home</li>
+                </Link>
               </li>
               <li>
                 <Link to="/blogs">Blogs</Link>

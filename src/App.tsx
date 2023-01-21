@@ -28,18 +28,20 @@ function App() {
     <ThemeContext.Provider value={theme}>
       <Router>
         <Fragment>
-          <Header callBack={changeTheme} />
-          <main className={`main-block main-${theme}`}>
-            <Routes>
-              <Route path="/" element={<HomePage />}></Route>
-              <Route path="/contact" element={<Contact />}></Route>
-              <Route path="/blogs" element={<Blogs />}></Route>
-              <Route path="/404-not-found" element={<ErrorPage />}></Route>
-              <Route path="*" element={<ErrorPage />}></Route>
-            </Routes>
-            {/* <RouterProvider router={router} /> */}
-          </main>
-          <Footer />
+          <div className={`the-root ${theme}-background `}>
+            <Header callBack={changeTheme} />
+            <main className={`main-block main-${theme}`}>
+              <Routes>
+                <Route path="/" element={<HomePage />}></Route>
+                <Route path="/contact" element={<Contact />}></Route>
+                <Route path="/blogs" element={<Blogs />}></Route>
+                <Route path="/404-not-found" element={<ErrorPage />}></Route>
+                <Route path="*" element={<ErrorPage />}></Route>
+              </Routes>
+              {/* <RouterProvider router={router} /> */}
+            </main>
+            <Footer />
+          </div>
         </Fragment>
       </Router>
     </ThemeContext.Provider>
