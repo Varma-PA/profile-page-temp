@@ -7,6 +7,10 @@
 @import "./base/animations";
 @import "./base/utilities";
 
+@import "./components/header";
+@import "./components/card";
+@import "./components/footer";
+
 @import "./pages/home";
 @import "./pages/blogs";
 @import "./pages/contact";

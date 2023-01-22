@@ -1,0 +1,121 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header:hover {
+  box-shadow: rgb(0 0 0 / 6%) 0px 6px 24px;
+  transition: all 0.2s linear;
+}
+
+.header:hover::after {
+  box-shadow: 0;
+  transition: all 0.2s linear;
+}
+
+.header-flexbox {
+  max-width: 77rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-flexbox > h3 {
+  width: 30%;
+}
+
+.header-navigation > li {
+  height: 100%;
+  /* padding: 1rem; */
+  padding: 1.1rem 3rem;
+}
+
+.header-navigation > li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  /* background-color: #d4d4d4; */
+  /* padding: 1rem; */
+}
+
+.header-navigation-light > li:hover {
+  background-color: #d4d4d4;
+}
+
+.header-navigation-dark > li:hover {
+  background-color: #363636;
+}
+
+.nav-flexbox {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.change-theme-button {
+  border: 0;
+  cursor: pointer;
+}
+
+.button-light {
+  background-color: #d4d4d4;
+  color: black;
+}
+
+.button-dark {
+  background-color: #363636;
+  color: white;
+}
+.dropdown-button {
+  display: none;
+}
+
+.hamburger {
+  display: none;
+  border: 0;
+}
+
+/* Took from css.gg, under MIT license */
+.gg-menu {
+  transform: scale(var(--ggs, 1));
+}
+
+.gg-menu,
+.gg-menu::after,
+.gg-menu::before {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  width: 20px;
+  height: 2px;
+  border-radius: 3px;
+  background: currentColor;
+}
+
+.gg-menu::after,
+.gg-menu::before {
+  content: "";
+  position: absolute;
+  top: -6px;
+}
+
+.gg-menu::after {
+  top: 6px;
+}
+
+.parent-nav-flexbox {
+  width: 100%;
+}
+
+@media only screen and (min-width: 801px) {
+  .header-navigation {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 100%;
+    margin: 0rem;
+  }
+}
