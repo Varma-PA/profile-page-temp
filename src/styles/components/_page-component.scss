@@ -1,7 +1,16 @@
+.page-light {
+  box-shadow: 8px 9px 111px 0px rgb(156 156 156 / 68%);
+}
+
+.page-dark {
+  box-shadow: 8px 9px 111px 0px rgb(42 42 42 / 68%);
+  background-color: #303030;
+}
+
 .page_component {
   max-width: 77rem;
   width: 100%;
-  box-shadow: 8px 9px 111px 0px rgba(156, 156, 156, 0.68);
+  // box-shadow: 8px 9px 111px 0px rgba(156, 156, 156, 0.68);
   border-radius: 40px;
   padding: 0rem;
   overflow: hidden;

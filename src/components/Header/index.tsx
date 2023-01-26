@@ -32,19 +32,32 @@ const Header = ({ callBack }: headerProps): JSX.Element => {
             <ul
               className={`header-navigation header-navigation-${theme} mobile-theme`}
             >
-              {/* <li onClick={() => changePage("home")}>Home</li>
-              <li onClick={() => changePage("blogs")}>Blogs</li>
-              <li onClick={() => changePage("about")}>About</li> */}
               <li>
-                <Link to="/" style={{ textDecoration: "none" }}>
+                <Link
+                  to="/"
+                  style={{ textDecoration: "none" }}
+                  className={theme === "light" ? "text-light" : "text-dark"}
+                >
                   <li>Home</li>
                 </Link>
               </li>
               <li>
-                <Link to="/blogs">Blogs</Link>
+                <Link
+                  to="/blogs"
+                  style={{ textDecoration: "none" }}
+                  className={theme === "light" ? "text-light" : "text-dark"}
+                >
+                  Blogs
+                </Link>
               </li>
               <li>
-                <Link to="/contact">Contact</Link>
+                <Link
+                  to="/contact"
+                  style={{ textDecoration: "none" }}
+                  className={theme === "light" ? "text-light" : "text-dark"}
+                >
+                  Contact
+                </Link>
               </li>
             </ul>
             <button

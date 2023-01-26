@@ -1,0 +1,13 @@
+.footer-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  background-color: black;
+  color: white;
+}
+
+.footer-flex > div:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
