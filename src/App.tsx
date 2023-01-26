@@ -38,7 +38,6 @@ function App() {
                 <Route path="/404-not-found" element={<ErrorPage />}></Route>
                 <Route path="*" element={<ErrorPage />}></Route>
               </Routes>
-              {/* <RouterProvider router={router} /> */}
             </main>
             <Footer />
           </div>
