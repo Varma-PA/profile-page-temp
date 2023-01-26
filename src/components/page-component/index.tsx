@@ -1,13 +1,16 @@
-import React from "react";
+import React, { useContext } from "react";
 import data from "../../data/image-location.json";
+import { ThemeContext } from "../../ThemeContext";
 
 interface propType {
   children: JSX.Element;
 }
 
 const PageComponent = ({ children }: propType) => {
+  const theme = useContext(ThemeContext);
+
   return (
-    <div className="page_component">
+    <div className={`page_component page-${theme}`}>
       <section className="page_component-hero-image-box">
         <div className="page_component-hero-image-box-home">
           <span>Welcome</span>

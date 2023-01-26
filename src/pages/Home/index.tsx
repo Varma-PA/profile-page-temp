@@ -5,9 +5,19 @@ import data from "../../data/image-location.json";
 const HomePage = () => {
   return (
     <PageComponent>
-      <div data-testid="home">
-        <img src={data[3].imageURL} alt={data[3].imageAltName} />
-        <div>Outside Page Component</div>
+      <div data-testid="home" className="position-relative">
+        <div className="home_avatar_image_location">
+          <img
+            className="home_avatar"
+            src={data[3].imageURL}
+            alt={data[3].imageAltName}
+          />
+        </div>
+        <section>
+          <div>
+            <div>Outside Page Component</div>
+          </div>
+        </section>
       </div>
     </PageComponent>
   );

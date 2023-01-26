@@ -24,6 +24,8 @@
 
 .header-flexbox > h3 {
   width: 30%;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
 }
 
 .header-navigation > li {
@@ -106,6 +108,14 @@
 
 .parent-nav-flexbox {
   width: 100%;
+}
+
+.text-light {
+  color: black !important;
+}
+
+.text-dark {
+  color: #d4d4d4 !important;
 }
 
 @media only screen and (min-width: 801px) {

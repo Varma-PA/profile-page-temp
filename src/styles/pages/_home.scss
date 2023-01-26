@@ -3,3 +3,23 @@
   justify-content: center;
   margin: 3rem 0;
 }
+
+.position-relative {
+  position: relative;
+}
+
+.home_avatar_image_location {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: -4rem;
+  transform: translate(-50%);
+}
+
+.home_avatar {
+  width: 15rem;
+  border-radius: 50%;
+  box-shadow: 1px 7px 22px -4px rgba(0, 0, 0, 0.51);
+  -webkit-box-shadow: 1px 7px 22px -4px rgba(0, 0, 0, 0.51);
+  -moz-box-shadow: 1px 7px 22px -4px rgba(0, 0, 0, 0.51);
+}
