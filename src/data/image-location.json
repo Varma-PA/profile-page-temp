@@ -1,18 +1,18 @@
 [
   {
     "imageAltName": "Blogs_Mountains",
-    "imageURL": "https://d34l0uqx3b1hie.cloudfront.net/BlogsMountain.jpg"
+    "imageURL": "https://personal-website-media-files.s3.amazonaws.com/BlogsMountain.jpg"
   },
   {
     "imageAltName": "mountains",
-    "imageURL": "https://d34l0uqx3b1hie.cloudfront.net/mountains.jpg"
+    "imageURL": "https://personal-website-media-files.s3.amazonaws.com/mountains.jpg"
   },
   {
     "imageAltName": "New_White_Mountains",
-    "imageURL": "https://d34l0uqx3b1hie.cloudfront.net/NewWhiteMountains.jpg"
+    "imageURL": "https://personal-website-media-files.s3.amazonaws.com/NewWhiteMountains.jpg"
   },
   {
     "imageAltName": "Most_Handsome_Man",
-    "imageURL": "https://d34l0uqx3b1hie.cloudfront.net/My_Pic.jpg"
+    "imageURL": "https://personal-website-media-files.s3.amazonaws.com/My_Pic.jpeg"
   }
 ]
