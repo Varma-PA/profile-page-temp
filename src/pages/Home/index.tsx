@@ -32,7 +32,7 @@ const HomePage = () => {
 
             <div className="wrapper">
               <div className={"static-txt " + theme + "-static"}>I'm </div>
-              <ul className={"dynamic-txts " + theme + "-dynamic"}>
+              <ul className={"dynamic-txts-" + theme + "-txts"}>
                 <li>
                   <span>a Student</span>
                 </li>
