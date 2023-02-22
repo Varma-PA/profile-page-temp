@@ -26,6 +26,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .introduction {
@@ -232,12 +233,51 @@
   }
 }
 
-@keyframes typing {
-  40%,
-  60% {
-    left: calc(100% + 30px);
+.icon-light {
+  color: #303030;
+}
+
+.icon-dark {
+  color: #eeeeee;
+}
+
+.flex-skills {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+
+  &-name {
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
   }
-  100% {
-    left: 0;
-  }
+}
+
+.description-name {
+  text-align: right;
+  width: 30rem;
+  font-size: 1.5rem;
+  // margin-right: 3rem;
+}
+
+.sub-description-name {
+  width: 30rem;
+}
+
+.flex-sills-member {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  max-width: 8rem;
+}
+
+.margin-gap {
+  margin: 2rem 0rem;
+}
+.skills-heading {
+  font-weight: bold;
+  font-size: 1.5rem;
 }
