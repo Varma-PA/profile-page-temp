@@ -1,6 +1,8 @@
 import React, { useContext } from "react";
+import HorizontalBarGraph from "../../components/Graphs/Horizontal-Skill-Graph";
 import PageComponent from "../../components/page-component";
 import SkillsBarGraph from "../../components/SkillsBarGraph";
+import SkillSet from "../../components/skillset";
 import data from "../../data/image-location.json";
 import { ThemeContext } from "../../ThemeContext";
 
@@ -87,9 +89,69 @@ const HomePage = () => {
         </div>
 
         <div>
-          <div>Skills</div>
-          <div>Programming Languages</div>
           {/* <SkillsBarGraph /> */}
+          {/* <HorizontalBarGraph /> */}
+          <div className="home-skillset">
+            <h2>Skillset</h2>
+            <div className="home-skillset-columns">
+              <div>
+                <SkillSet
+                  heading="Languages"
+                  content={["Java", "JavaScript", "Python"]}
+                />
+                <SkillSet
+                  heading="Frontend"
+                  content={["React", "Next JS", "Angular", "HTML", "CSS"]}
+                />
+                <SkillSet
+                  heading="Backend"
+                  content={["Spring Boot", "Express", "Flask"]}
+                />
+                <SkillSet
+                  heading="Database Management Systems"
+                  content={[
+                    "Oracle DB",
+                    "MySQL",
+                    "Microsoft SQL",
+                    "MongoDB",
+                    "Amazon DynamoDB",
+                  ]}
+                />
+                <SkillSet
+                  heading="Container Management"
+                  content={["Docker", "Kubernetes"]}
+                />
+              </div>
+              <div>
+                <SkillSet
+                  heading="CI / CD"
+                  content={[
+                    "Jenkins",
+                    "GitHub Actions",
+                    "Concourse",
+                    "AWS CodePipeline",
+                  ]}
+                />
+                <SkillSet
+                  heading="Infrastructure as Code"
+                  content={["Hashicorp Terraform", "Hashicorp Packer"]}
+                />
+                <SkillSet
+                  heading="Testing Frameworks"
+                  content={["JUnit", "Jest", "Vitest", "Mockito"]}
+                />
+                <SkillSet heading="UI / UX" content={["Figma", "Adobe XD"]} />
+                <SkillSet
+                  heading="Certifications"
+                  content={[
+                    "AWS Certifiec Cloud Practitioner",
+                    "Google UX Design Certification",
+                    "DeepLearning.AI Tensorflow Developer",
+                  ]}
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </PageComponent>
