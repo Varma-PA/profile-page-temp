@@ -1,10 +1,13 @@
 import React, { useContext } from "react";
 import PageComponent from "../../components/page-component";
+import SkillsBarGraph from "../../components/SkillsBarGraph";
 import data from "../../data/image-location.json";
 import { ThemeContext } from "../../ThemeContext";
 
 const HomePage = () => {
   const theme = useContext(ThemeContext);
+
+  const labels = ["Java", "JavaScript", "TypeScript", "Python"];
 
   return (
     <PageComponent>
@@ -81,6 +84,12 @@ const HomePage = () => {
             <div className="skills-heading">Agility</div>
             <div>Keep updating with the latest design trends..</div>
           </div>
+        </div>
+
+        <div>
+          <div>Skills</div>
+          <div>Programming Languages</div>
+          {/* <SkillsBarGraph /> */}
         </div>
       </div>
     </PageComponent>
