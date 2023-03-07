@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import HorizontalBarGraph from "../../components/Graphs/Horizontal-Skill-Graph";
 import PageComponent from "../../components/page-component";
+import Projects from "../../components/Projects";
 import SkillsBarGraph from "../../components/SkillsBarGraph";
 import SkillSet from "../../components/skillset";
 import data from "../../data/image-location.json";
@@ -38,6 +39,9 @@ const HomePage = () => {
                 </li>
                 <li>
                   <span>a Gamer</span>
+                </li>
+                <li>
+                  <span>Achyuth</span>
                 </li>
               </ul>
             </div>
@@ -140,7 +144,10 @@ const HomePage = () => {
                   heading="Testing Frameworks"
                   content={["JUnit", "Jest", "Vitest", "Mockito"]}
                 />
-                <SkillSet heading="UI / UX" content={["Figma", "Adobe XD"]} />
+                <SkillSet
+                  heading="UI / UX"
+                  content={["Figma", "Adobe XD", "Balsamiq", "Moqup"]}
+                />
                 <SkillSet
                   heading="Certifications"
                   content={[
@@ -151,6 +158,10 @@ const HomePage = () => {
                 />
               </div>
             </div>
+          </div>
+
+          <div className="home-projects">
+            <Projects />
           </div>
         </div>
       </div>
