@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ProjectDetails from "../Project-Details";
 import ProjectsButton from "../Projects_Button";
 
 const Projects = () => {
@@ -12,9 +13,9 @@ const Projects = () => {
 
   return (
     <div className="projects-flex-box">
-      <h2>Projects</h2>
+      <h2>Projects: {clickedButton}</h2>
 
-      <div className="projects-button">
+      <div className="projects-buttons">
         <div>
           <ProjectsButton heading="All" callback={setCallBack} />
         </div>
@@ -35,7 +36,9 @@ const Projects = () => {
         </div>
       </div>
 
-      <div></div>
+      <div>
+        <ProjectDetails projectHeading={clickedButton} />
+      </div>
     </div>
   );
 };

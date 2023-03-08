@@ -14,5 +14,13 @@
   {
     "imageAltName": "Most_Handsome_Man",
     "imageURL": "https://personal-website-media-files.s3.amazonaws.com/My_Pic.jpeg"
+  },
+  {
+    "imageAltName": "GitHub_white",
+    "imageURL": "https://personal-website-media-files.s3.amazonaws.com/GitHub_Logo_White.png"
+  },
+  {
+    "imageAltName": "GitHub_dark",
+    "imageURL": "https://personal-website-media-files.s3.amazonaws.com/GitHub_Logo.png"
   }
 ]

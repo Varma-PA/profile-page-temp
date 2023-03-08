@@ -8,7 +8,9 @@ interface propType {
 const ProjectsButton = ({ heading, callback }: propType) => {
   return (
     <div>
-      <button onClick={() => callback(heading)}>{heading}</button>
+      <button className="button-23" onClick={() => callback(heading)}>
+        {heading}
+      </button>
     </div>
   );
 };
