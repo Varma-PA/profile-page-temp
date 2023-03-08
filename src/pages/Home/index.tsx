@@ -54,9 +54,9 @@ const HomePage = () => {
             around
           </div>
           <div className="sub-description-name">
-            I'm highly passionate ❤️ to build stuff that improves the lives of
-            those around me. I specialize in creating a full stack website and
-            handle the scalability of it
+            I'm highly passionate and ❤️ to build stuff that improves the lives
+            of those around me. I specialize in creating a full-stack website
+            and handling its scalability.
           </div>
         </div>
 

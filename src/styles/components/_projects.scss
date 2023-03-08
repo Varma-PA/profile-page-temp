@@ -2,9 +2,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+  gap: 2rem;
 }
 
-.projects-button {
+.projects-buttons {
   display: flex;
   flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
 }
