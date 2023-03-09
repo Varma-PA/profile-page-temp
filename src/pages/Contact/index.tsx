@@ -38,7 +38,7 @@ const Contact = () => {
           </div>
           <div
             onClick={() => {
-              location.href = "https://www.instagram.com/i_am_achyuth/";
+              location.href = "https://github.com/Varma-PA";
             }}
           >
             <img
