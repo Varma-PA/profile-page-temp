@@ -39,3 +39,12 @@
     left: 0;
   }
 }
+
+@keyframes hoverSlightlyUp {
+  0% {
+    transform: translateY(5%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}

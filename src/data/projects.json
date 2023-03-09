@@ -2,7 +2,47 @@
   {
     "id": 1,
     "category": "Frontend",
-    "Project_Name": "Portfolio Website",
-    "Project_Description": "Created a Portfolio website using React Vite"
+    "projectName": "Portfolio Website",
+    "projectDescription": "Created a Portfolio website using React Vite",
+    "gitHubLink": "https://github.com/Varma-PA/profile-page-temp.git",
+    "technologiesUsed": [
+      "React Vit",
+      "Scss",
+      "Amazon S3",
+      "AWS Route53",
+      "AWS CloudFront"
+    ]
+  },
+  {
+    "id": 2,
+    "category": "DBMS",
+    "projectName": "Bank Management DBMS",
+    "projectDescription": "Created a full fledged Bank Management Database System",
+    "gitHubLink": "https://github.com/Varma-PA/profile-page-temp.git",
+    "technologiesUsed": ["Microsoft SQL", "Tableau for viewing"]
+  },
+  {
+    "id": 3,
+    "category": "Backend",
+    "projectName": "Express WebApp",
+    "projectDescription": "Created an Express Backend system where users can upload products and their images to Amazon S3",
+    "gitHubLink": "https://github.com/Varma-PA/profile-page-temp.git",
+    "technologiesUsed": ["Express", "AWS SDK", "Hashicorp Packer", "Nginx"]
+  },
+  {
+    "id": 3,
+    "category": "Backend",
+    "projectName": "Terraform IaaC for Express Webapp",
+    "projectDescription": "Implemented IaaC for the Express WebApp. It creates VPC, Subnets, Route Tables, Internet Gateway, EC2, Amazon S3, Amazon RDS",
+    "gitHubLink": "https://github.com/Varma-PA/profile-page-temp.git",
+    "technologiesUsed": ["Terraform", "AWS"]
+  },
+  {
+    "id": 1,
+    "category": "Frontend",
+    "projectName": "Portfolio Website",
+    "projectDescription": "Created a Portfolio website using React Vite",
+    "gitHubLink": "https://github.com/Varma-PA/profile-page-temp.git",
+    "technologiesUsed": []
   }
 ]
