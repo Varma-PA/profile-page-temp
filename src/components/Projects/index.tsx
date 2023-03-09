@@ -36,7 +36,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div>
+      <div className="project-details-center">
         <ProjectDetails projectHeading={clickedButton} />
       </div>
     </div>
