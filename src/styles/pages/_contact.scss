@@ -1,0 +1,91 @@
+.contact-main-div {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.contact-tiles {
+  margin: 1rem 0rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+
+  &-light {
+    & > div {
+      background-color: white;
+    }
+  }
+
+  &-dark {
+    & > div {
+      background-color: black;
+    }
+  }
+
+  & > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 30px;
+    // background-color: white;
+
+    & > img {
+      height: auto;
+      width: 3rem;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &:first-child:hover {
+      //   background-color: blue;
+      background-image: linear-gradient(
+        to right bottom,
+        #d1d6de,
+        #c6cfe3,
+        #bec7e8,
+        #b9beeb,
+        #b8b4ed
+      );
+      //   cursor: pointer;
+    }
+
+    &:nth-child(2):hover {
+      background-image: linear-gradient(
+        to right bottom,
+        #d1d6de,
+        #a1b8e7,
+        #7897ed,
+        #5c72ec,
+        #5348e4
+      );
+    }
+
+    &:nth-child(3):hover {
+      background-image: linear-gradient(
+        to right bottom,
+        #d1d6de,
+        #bbc2d7,
+        #acadcf,
+        #a396c3,
+        #9f7eb3
+      );
+    }
+
+    &:last-child:hover {
+      background-image: linear-gradient(
+        to right bottom,
+        #f0f0f0,
+        #b2afba,
+        #7a7386,
+        #463b54,
+        #1a0526
+      );
+    }
+  }
+}

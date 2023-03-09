@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import { Link } from "react-router-dom";
 import HorizontalBarGraph from "../../components/Graphs/Horizontal-Skill-Graph";
 import PageComponent from "../../components/page-component";
 import Projects from "../../components/Projects";
@@ -13,7 +14,7 @@ const HomePage = () => {
   const labels = ["Java", "JavaScript", "TypeScript", "Python"];
 
   return (
-    <PageComponent>
+    <PageComponent dataIndex={1} title="Welcome">
       <div data-testid="home" className="position-relative">
         <div className="image-and-content">
           <img
@@ -162,6 +163,12 @@ const HomePage = () => {
 
           <div className="home-projects">
             <Projects />
+          </div>
+
+          <div className="home-contact-page">
+            <Link to={"/contact"}>
+              <h2>Please head to contact page</h2>
+            </Link>
           </div>
         </div>
       </div>

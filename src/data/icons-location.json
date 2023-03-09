@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "Email",
+    "location": "https://personal-website-media-files.s3.amazonaws.com/email.png"
+  },
+  {
+    "id": 2,
+    "title": "LinkedIn",
+    "location": "https://personal-website-media-files.s3.amazonaws.com/linkedin.png"
+  },
+  {
+    "id": 3,
+    "title": "Instagram",
+    "location": "https://personal-website-media-files.s3.amazonaws.com/instagram.png"
+  },
+  {
+    "id": 4,
+    "title": "GitHub",
+    "location": "https://personal-website-media-files.s3.amazonaws.com/github-mark-"
+  }
+]
