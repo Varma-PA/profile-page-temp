@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useContext } from "react";
+import { ThemeContext } from "../../ThemeContext";
 
 interface propType {
   heading: string;
@@ -6,9 +7,14 @@ interface propType {
 }
 
 const ProjectsButton = ({ heading, callback }: propType) => {
+  const theme = useContext(ThemeContext);
+
   return (
     <div>
-      <button className="button-23" onClick={() => callback(heading)}>
+      <button
+        className={`button-23 button-block-${theme}`}
+        onClick={() => callback(heading)}
+      >
         {heading}
       </button>
     </div>

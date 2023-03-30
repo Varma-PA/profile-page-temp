@@ -1,9 +1,12 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import ProjectDetails from "../Project-Details";
 import ProjectsButton from "../Projects_Button";
+import { ThemeContext } from "../../ThemeContext";
 
 const Projects = () => {
   const [clickedButton, setClickedButton] = useState("All");
+
+  const theme = useContext(ThemeContext);
 
   const setCallBack = (heading: string) => {
     console.log(heading);
@@ -15,7 +18,7 @@ const Projects = () => {
     <div className="projects-flex-box">
       <h2>Projects: {clickedButton}</h2>
 
-      <div className="projects-buttons">
+      <div className={`projects-buttons`}>
         <div>
           <ProjectsButton heading="All" callback={setCallBack} />
         </div>

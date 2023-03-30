@@ -7,6 +7,7 @@ import SkillsBarGraph from "../../components/SkillsBarGraph";
 import SkillSet from "../../components/skillset";
 import data from "../../data/image-location.json";
 import { ThemeContext } from "../../ThemeContext";
+import Experience from "../../components/experience";
 
 const HomePage = () => {
   const theme = useContext(ThemeContext);
@@ -159,6 +160,10 @@ const HomePage = () => {
                 />
               </div>
             </div>
+          </div>
+
+          <div className="experience-block">
+            <Experience />
           </div>
 
           <div className="home-projects">
