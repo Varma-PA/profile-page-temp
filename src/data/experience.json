@@ -15,15 +15,15 @@
       },
       {
         "id": 3,
-        "responsibility": "Created a microservice using Spring Boot (Java) which organized and consolidated all the orders to the freight order depending on the delivery location and recorded it to Oracle DB. Deployed the microservice to the Microsoft Azure Kubernetes Service cluster in a private subnet inside Azure VNet. Utilized Concourse CI/CD to automate test validation and deployment process"
+        "responsibility": "Created a microservice using Spring Boot (Java) which organized and consolidated all the orders to the freight order depending on the delivery location and recorded it to Oracle DB. Deployed the microservice to the AWS Elastic Kubernetes cluster in a private subnet inside AWS VPC. Utilized Jenkins CI/CD to automate test validation and deployment process"
       },
       {
         "id": 4,
-        "responsibility": "Implemented a serverless microservice and utilized SendGrid bindings which sends the predefined email notification triggered from the events of Azure Event Bus. As a result, it has drastically reduced the price of operation as compared to traditional deployment by 90%"
+        "responsibility": "Implemented a serverless microservice and utilized SendGrid bindings which sends the predefined email notification triggered from the Apache Kafka events. As a result, it has drastically reduced the operational expense as compared to traditional deployment by 90%"
       },
       {
         "id": 5,
-        "responsibility": "Leveraged Azure CDN (Content Delivery Network) to quickly stream small and large media files (images) with optimized delivery. As a result, it improved the user experience of the web app and reduced load times by at least 50%"
+        "responsibility": "Leveraged AWS CloudFront (Content Delivery Network) to quickly stream small and large media files (images) with optimized delivery. As a result, it improved the user experience of the web app and reduced load times by at least 50%"
       }
     ]
   }
